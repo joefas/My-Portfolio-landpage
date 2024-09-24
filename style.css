@@ -1,16 +1,29 @@
 body{
-    background: url("images/wmp.jpg");
     font-family: Arial;
     margin: 0;
     padding: 0;
+    background: url(images/wmp.jpg);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 40px;
+}
+
+.main-content{
+    margin: 20px;
+    text-align: center;
+    margin: 20px;
 }
 
 .navbar ul{
     list-style: none;
     padding: 0;
-    margin: 0;
-    background: #bd1e43;
+    margin: 0;   
     text-align: right;
+    justify-content: space-between;
 }
 
 .navbar li{
@@ -28,6 +41,7 @@ body{
     font-weight: bold;
     text-align: center;
     font-size: 14px;
+    background: #29AB87;
 }
 
 .navbar a:hover{
@@ -37,7 +51,7 @@ body{
 .navbar li ul{
     display: none;
     position: absolute;
-    background: #bd1e43;
+    background: green;
     border: 5px solid #000;
 }
 
@@ -68,16 +82,32 @@ body{
 .service{
     margin: 50px;
     text-align: center;
+    color: white;
+    flex-basis: 30%;
 }
 
-.service-container{
+.services{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 40px;
+    color: white;
 }
 
-about img{
-    width: 250px;
+.about img{
+    width: 30;
     height: auto;
-    max-width: 50%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
 }
+
+.about{
+    margin: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
