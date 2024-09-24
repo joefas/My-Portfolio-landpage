@@ -2,20 +2,23 @@ body{
     font-family: Arial;
     margin: 0;
     padding: 0;
-    background: url(images/wmp.jpg);
 }
 
 .main {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #000;
     margin: 40px;
+    background-image: url(images/wmp.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .main-content{
     margin: 20px;
     text-align: center;
     margin: 20px;
+    background-color: transparent;
 }
 
 .navbar ul{
@@ -23,7 +26,6 @@ body{
     padding: 0;
     margin: 0;   
     text-align: right;
-    justify-content: space-between;
 }
 
 .navbar li{
@@ -32,26 +34,27 @@ body{
 
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: #000;
     width: 100px;
     padding: 25px 20px;
-    display: block;
+    display: block;    
     text-transform: uppercase;
     font-family: arial;
     font-weight: bold;
     text-align: center;
     font-size: 14px;
-    background: #29AB87;
+    background: rgb(3, 63, 3);
+    background-color: transparent;
 }
 
 .navbar a:hover{
-    background: #000;
+    background: 2px solid #000;
 }
 
 .navbar li ul{
     display: none;
     position: absolute;
-    background: green;
+    background: rgb(3, 63, 3);
     border: 5px solid #000;
 }
 
@@ -82,7 +85,7 @@ body{
 .service{
     margin: 50px;
     text-align: center;
-    color: white;
+    color: #000;
     flex-basis: 30%;
 }
 
@@ -91,11 +94,12 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin: 40px;
-    color: white;
+    color: #000;
+    text-align: center;
 }
 
 .about img{
-    width: 30;
+    width: 500px;
     height: auto;
     margin: 5px;
     padding: 5px;
@@ -105,9 +109,26 @@ body{
 .about{
     margin: 50px;
     text-align: center;
-    color: white;
+    color: #000;
 }
 
+h2 {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.fab{
+    color: #000;
+}
 
 
 
